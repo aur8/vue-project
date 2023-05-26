@@ -2,8 +2,12 @@
   <div class="quote-gallery">
     <h3>Welcome to the hall of the most uncommon fun facts !</h3>
     <button @click="getChuckQuote">Get Quote</button>
-    <!-- <button @click="changeCategory">Get Quote</button> -->
     <ChuckQuote v-for="quote in quotes" :key="quote.id" :quote="quote" />
+
+    <!-- J'ai voulu créer une fonction permettant d'affficher des quotes 
+      selon des catégories seulement l'API ne propose plus 
+      ce service je présenterai ce problème dans la vidéo -->
+    <!-- <button @click="changeCategory">Get Quote</button> -->
     <!-- <select v-model="selectedCategory" @change="changeCategory">
       <option value="random">Random Quotes</option>
       <option value="animal">Animal Quotes</option>

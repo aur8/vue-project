@@ -1,13 +1,6 @@
 <template>
   <div>
     <h1>The gallery of your favorite quotes !</h1>
-    <!-- <button @click="toggleGallery">Switch of quote author</button>
-    <div v-if="showTrumpGallery">
-      <TrumpQuoteGallery />
-    </div>
-    <div v-else>
-      <ChuckQuoteGallery />
-    </div> -->
 
     <select v-model="selectedCategory" @change="changeCategory">
       <option value="trump">Trump Quotes</option>

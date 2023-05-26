@@ -1,6 +1,6 @@
 <template>
   <footer class="myFooter">
-    <p>© 2023 DROISSART Aurélien IMAC 2. Tous droits réservés.</p>
+    <p>© 2023 DROISSART Aurélien IMAC 2.</p>
   </footer>
 </template>
 
